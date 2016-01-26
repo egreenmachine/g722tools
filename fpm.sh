@@ -77,7 +77,7 @@ make install
 # upgrade as a remove and an install. It will not recognize upgrading as a
 # separate case. The RPM upgrade will run the after-install script and then it
 # will run the after-upgrade script.
-PREFIX=/usr/local
+PREFIX=/usr
 # The files to put in the non-src RPM
 FILES="bin share"
 # build RPM
